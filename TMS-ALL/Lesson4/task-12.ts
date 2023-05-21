@@ -1,5 +1,5 @@
-let x = 20
-let y = 58
-let z = 42
-let sum = x + y + z
-console.log(sum)
+function getInt(a: number, b: number) {
+    return Math.floor(Math.random() * (b + a)) - a;
+}
+
+console.log(getInt(3, 34));

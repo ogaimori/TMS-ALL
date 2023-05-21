@@ -1,5 +1,11 @@
-let x = 20
-let y = 58
-let z = 42
-let sum = x + y + z
-console.log(sum)
+let num1: number = 5.666666;
+
+function checkIfInt(a: number) {
+    if (Number.isInteger(a)) {
+        console.log(a);
+    }
+    else {
+        Math.round(a);
+    }
+}
+checkIfInt(num1);

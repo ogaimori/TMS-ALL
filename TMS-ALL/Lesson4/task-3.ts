@@ -1,5 +1,11 @@
-let x = 20
-let y = 58
-let z = 42
-let sum = x + y + z
-console.log(sum)
+let string: string = "new strange sting";
+
+function someFunction(a: number) {
+    if (a > string.length) {
+        console.log("Вы вышли за границу строки");
+    } else{
+        console.log("Вы в границах строки");
+    }
+}
+
+someFunction(2);

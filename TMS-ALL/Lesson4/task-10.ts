@@ -1,5 +1,20 @@
-let x = 20
-let y = 58
-let z = 42
-let sum = x + y + z
-console.log(sum)
+let myNewNum : number = 8.829734872948;
+
+function toFloor(x:number) {
+  x = Math.floor(x);
+  console.log(x);
+};
+
+function toCeil(x:number) {
+  x = Math.ceil(x);
+  console.log(x);
+};
+
+function toRound(x:number) {
+  x = Math.round(x);
+  console.log(x);
+};
+
+toFloor(myNewNum);
+toCeil(myNewNum);
+toRound(myNewNum);

@@ -1,5 +1,8 @@
-let x = 20
-let y = 58
-let z = 42
-let sum = x + y + z
-console.log(sum)
+let num :number = 33.33;
+
+function pow(x:number, y:number) {
+  x = Math.pow(x, y);
+  console.log(x);
+};
+
+pow(num, 54)
